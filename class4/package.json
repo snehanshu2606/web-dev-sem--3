@@ -1,0 +1,22 @@
+{
+  "name": "class1",
+  "version": "1.0.0",
+  "description": "nothing",
+  "license": "ISC",
+  "author": "Krish",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "poststart": "echo 'App has closed...'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  }
+}
